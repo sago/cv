@@ -1,0 +1,121 @@
+/* line 6, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.background {
+  background-color: #428335;
+}
+
+/* line 9, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.banner {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 12, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.banner img {
+  width: 95%;
+  height: auto;
+}
+
+/* line 17, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.custom-nav {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+/* line 22, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.img {
+  width: 100%;
+}
+
+/* line 25, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.content {
+  margin-top: 2%;
+  font-family: 'Comfortaa', cursive;
+  text-align: justify;
+}
+
+/* line 30, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.side-bar {
+  margin-top: 10%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* line 37, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.center {
+  text-align: center;
+}
+
+/* line 41, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.customNav {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* line 48, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.aboutMe {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+/* line 53, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 58, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* line 67, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* line 71, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* line 76, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* line 81, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/* line 86, /Users/Sago/Documents/Proyectos/resume/app/assets/stylesheets/pages.scss */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
