@@ -88,4 +88,18 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  # Contact mailer
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_url_options = { :host => ‘herokuapp.com’ }
+  config.action_mailer.perform_deliveries = true
+  ActionMailer::Base.smtp_settings = {
+                                      :address => ‘smtp.mail.com’,
+                                      :port => ‘587’,
+                                      :authentication => :plain,
+                                      :user_name => "ing.saul.gomez18@gmail.com",
+                                      :password => EVN["GMAILPASS"],
+                                      :domain => ‘gmail.com’
+                                    }
+  ActionMailer::Base.delivery_method = :smtp
+
 end
